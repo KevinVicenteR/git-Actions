@@ -19,7 +19,7 @@ jobs:
         exit 1
     - name: say  goodbye
       run : 
-        echo "good bye"
+        echo "good byedddd"
 
 
 
