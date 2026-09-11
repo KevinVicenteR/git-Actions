@@ -1,0 +1,26 @@
+name: 01-bulding-block 
+
+on: push 
+
+
+jobs: 
+  echo-hello:
+      runs-on : ubunto-latest
+      steps : 
+        - name: say hello 
+          run : echo "hello world"
+
+  echo-goodbye: 
+    run-on : ubunto-latest
+    steps: 
+    - name: failed stop
+      run : |
+        echo "a will fail"
+        exit 1
+    - name: say  goodbye
+      run : 
+        echo "good bye"
+
+
+
+

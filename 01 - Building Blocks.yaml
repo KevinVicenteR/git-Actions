@@ -1,8 +1,0 @@
-
-
-steps:
-  - name: Multi-line bash
-    run: |
-      echo "I am"
-      echo "a multi-line"
-      echo "script."
